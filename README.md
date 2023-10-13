@@ -1,4 +1,11 @@
 # Web-Portfolio
-// Working on HTML, CSS, JS personal portfolio website, currently in progress
+Fullyt functional HTML, CSS, JS personal portfolio website project, not published yet
 
-// Utilizes style formatting to elaborate a personalized layout for the website
+Utilizes style formatting to elaborate a personalized layout
+
+Retrieves user inputs, HTML page interacts with user through JS functions
+
+Connected to Goole AppScriptto fetch user feedbacks and contacts informations
+
+
+
