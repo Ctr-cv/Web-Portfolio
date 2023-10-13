@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivi's Website</title>       <!-- Title for the website  -->
+    <link rel="stylesheet" href="website.css">
+    <script src="https://kit.fontawesome.com/2fd7634f19.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">                                     <!-- Website id, top of page -->
+    <div class="container">                           <!-- Class: Container for top of page -->
+        <nav>                                         <!-- Section for navigation links (menu)-->
+            <img src="images/logo.png" class="logo">  <!-- Images to put on top-->
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>         <!-- Home Link, with dotsk-->
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Computer Engineering Student</p>
+            <h2>Hello, I'm <br></h2>
+            <h1><span>Vivi Huang</span></h1>
+        </div>
+    </div>
+</div>
+<!------------about--------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title" > About Me</h1>
+                <p> Vivi Huang is a 1st year Computer Engineering student 
+                    at University of Waterloo. He is interested in software
+                    & computer engineering as well as theoretical maths. 
+                    He attended multiple math contests in high school and 
+                    1st year university, such as AIME and Euclid. Vivi also
+                    worked as a project intern on 3-D modelling and CAD 
+                    simulations at Chinese Academy of Sciences.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend Web Development</span><br>Self-taught HTML, CSS, JS </li>
+                        <li><span>Backend Developer</span><br>Project Building with C++ & Python Algorithms</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Sept 2023 - Current</span><br>Self-Taught UI/Web Design </li>
+                        <li><span>Jan 2022 - August 2023</span><br>Studied Python, Introductory C++ & Java experiences</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Sept 2023 - Current</span><br>1st year CE Student at University of Waterloo</li>
+                        <li><span>Sept 2018 - May 2023</span><br>Student at Semiahmoo Secondary School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------services----------------- -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Web Portfolio</h2>
+                <p>Lorem ipsum dolor sit am, qoehnvqohdsnodavhndo, qoinvqoiejfv.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit am, qoehnvqohdsnodavhndo, qoinvqoiejfv.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit am, qoehnvqohdsnodavhndo, qoinvqoiejfv.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------------portfolio----------------  -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Experience</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to talented people around the world
+                    Download it from the app store.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to talented people around the world
+                    Download it from the app store.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Study App</h3>
+                    <p>The app connects you to talented people around the world
+                    Download it from the app store.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ------------------------------contact---------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class=""sub-title>Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i> vivihuang.ca@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +1(236)990-8216</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/huang.vivi.9085/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/hym_vivih/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/vivi-huang-45254223b/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Vivi Huang Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"> 
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <span>&copy;</span> Vivi. Made with <i class="fa-regular fa-heart"></i> by Vivi Huang</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzeGLXBYCAGu-Up6U2G-EdfHrk_cjTdVDhyMu5lr5gDlUIee-jpgeeTYVb96PrCzngK/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },6000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
