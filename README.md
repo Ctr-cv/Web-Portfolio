@@ -5,7 +5,7 @@ Utilizes style formatting to elaborate a personalized layout
 
 Retrieves user inputs, HTML page interacts with user through JS functions
 
-Connected to Goole AppScriptto fetch user feedbacks and contacts informations
+Connected to Google App Script, used to fetch user feedbacks and contacts informations
 
 
 
