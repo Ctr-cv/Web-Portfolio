@@ -1,5 +1,5 @@
 # Web-Portfolio
-Fullyt functional HTML, CSS, JS personal portfolio website project, not published yet
+Fully functional HTML, CSS, JS personal portfolio website project
 
 Utilizes style formatting to elaborate a personalized layout
 
