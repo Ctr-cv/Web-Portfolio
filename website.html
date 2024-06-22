@@ -15,8 +15,8 @@
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>         <!-- Home Link, with dotsk-->
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#competitions">Competition</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
             </ul>
@@ -34,17 +34,16 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="images/user.png">
+                <img src="images/Building.jpg">
             </div>
             <div class="about-col-2">
-                <h1 class="sub-title" > About Me</h1>
-                <p> Vivi Huang is a 1st year Computer Engineering student 
-                    at University of Waterloo. He is interested in software
-                    & computer engineering as well as theoretical maths. 
-                    He attended multiple math contests in high school and 
-                    1st year university, such as AIME and Euclid. Vivi also
-                    worked as a project intern on 3-D modelling and CAD 
-                    simulations at Chinese Academy of Sciences.
+                <h1 class="sub-title" > About Me </h1>
+                <p> Vivi Huang is an upcoming 2nd year Computer Engineering student 
+                    at University of Waterloo. He's interested in competitive math and programming, with 
+                    multiple honor rolls in COMC, Euclid, AIME, and CCC.
+                    Vivi also worked as a project intern on 3-D modelling and CAD at Chinese Academy of Sciences, and most 
+                    recently, as a full-stack developer at Adaptive Pulse. He has worked on a handful of projects involving
+                    Api design, SQL databases, AI frameworks and general full-stack development.
                 </p>
 
                 <div class="tab-titles">
@@ -54,27 +53,41 @@
                 </div>
                 <div class="tab-contents active-tab" id="skills">
                     <ul>
-                        <li><span>Frontend Web Development</span><br>Self-taught HTML, CSS, JS </li>
-                        <li><span>Backend Developer</span><br>Project Building with C++ & Python Algorithms</li>
+                        <li><span>Frontend Web Development</span><br>HTML, CSS, Javascript <br> Experiences with Node.js, React.js, Vite.js and TailwindCSS</li>
+                        <li><span>Backend Development</span><br>2+ years of Python & C++ experience <br> 98% in 1st year C++ course <br> Familiar with using Django, Node.js with URL routing and Api designs</li>
+                        <li><span>Firmware Development</span><br>Motion sensing light built with STM32 microcontroller <br> Excels in C, C++</li>
+                        <li><span>Computer-Aided Design</span><br>2 year experience with COMSOL, 3D-Modelling and CAD <br> Experience with Solidworks</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="experience">
                     <ul>
-                        <li><span>Sept 2023 - Current</span><br>Self-Taught UI/Web Design </li>
-                        <li><span>Jan 2022 - August 2023</span><br>Studied Python, Introductory C++ & Java experiences</li>
+                        <li><span>May 2024 - August 2024</span><br><b>Full-Stack Developer at Adaptive Pulse</b></li>
+                        <p>
+                            Collaborated in designing front-end CRUD functions using Vite.js, TailwindCSS and React <br>
+                            Programmed OAuth2 workflow to call Slack & Github Api for client authentication <br>
+                            Streamlined client data and integrated more than 10000 entries into PostgreSQL database <br>
+                            Realized summarizer module in workflow using Langchain, OpenAI Api and vectordb
+                        </p>
+                        <li><span>May 2023 - August 2023</span><br><b>Project & Research Intern at Chinese Academy of Sciences </b><br></li>
+                        <p>
+                            Conducted Optical Analysis based on CAD and physics simulations with more than 80 iterations <br>
+                            Collaborated with 4 graduate/PhD students to draft research paper
+                        </p>
+                        <li><span>Sept 2023 - Current</span><br>Self-Taught UI/Web Design and Front-End developing </li>
+                        <li><span>Jan 2022 - August 2023</span><br>Previous Python, C++ and Java experiences</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="education">
                     <ul>
-                        <li><span>Sept 2023 - Current</span><br>1st year CE Student at University of Waterloo</li>
-                        <li><span>Sept 2018 - May 2023</span><br>Student at Semiahmoo Secondary School</li>
+                        <li><span>Sept 2023 - Current</span><br>1st year CE Student at University of Waterloo <br> 4.0 GPA in 1st semester</li>
+                        <li><span>Sept 2018 - May 2023</span><br>High school student at Semiahmoo Secondary School <br> 39/45 on IB May 2023 Exam <br> top 2.5% in AMC 10A 2021, Euclid 2023, top 5% in COMC 2022</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- ------------------services----------------- -->
+<!-- ------------------projects----------------- -->
 <div id="projects">
     <div class="container">
         <h1 class="sub-title">My Projects</h1>
@@ -82,61 +95,56 @@
             <div>
                 <i class="fa-solid fa-globe"></i>
                 <h2>Web Portfolio</h2>
-                <p>Lorem ipsum dolor sit am, qoehnvqohdsnodavhndo, qoinvqoiejfv.</p>
-                <a href="#">Learn more</a>
+                <p>This website you're looking at! <br> Written using vanilla HTML, CSS and JS</p>
+                <a href="#"><strong>Learn more</strong></a>
             </div>
             <div>
-                <i class="fas fa-crop-alt"></i>
-                <h2>UI/UX Design</h2>
-                <p>Lorem ipsum dolor sit am, qoehnvqohdsnodavhndo, qoinvqoiejfv.</p>
-                <a href="#">Learn more</a>
+                <i class="fa-brands fa-python"></i>
+                <h2>Online Learning Platform</h2>
+                <p>Built with Python and Django <br> CRUD functions and online chatting system</p>
+                <a href="#"><strong>currently not hosted in web server</strong></a>
             </div>
             <div>
-                <i class="fab fa-app-store"></i>
-                <h2>App Design</h2>
-                <p>Lorem ipsum dolor sit am, qoehnvqohdsnodavhndo, qoinvqoiejfv.</p>
-                <a href="#">Learn more</a>
+                <i class="fa-solid fa-blog"></i>
+                <h2>Blog Website</h2>
+                <p>Designing a Blog website based on vite.js, React and TailwindCSS.<br><br><strong>Project in progress</strong></p>
             </div>
         </div>
     </div>
 </div>
-<!-- ---------------------portfolio----------------  -->
-<div id="portfolio">
+<!-- ---------------------competitions----------------  -->
+<div id="competitions">
     <div class="container">
-        <h1 class="sub-title">My Experience</h1>
+        <h1 class="sub-title">Competitions</h1>
         <div class="work-list">
             <div class="work">
-                <img src="images/work-1.png">
+                <img src="images/AIME.jpg">
                 <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>The app connects you to talented people around the world
-                    Download it from the app store.
+                    <h3>American Invitational Mathematics Examination</h3>
+                    <p>Top 2.5% in AMC10A 2021, top 65 in Canada in AIME I 2021, top 40% worldwide
                     </p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://maa.org/math-competitions/american-invitational-mathematics-examination-aime"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="images/work-2.png">
+                <img src="images/Newton.jpg">
                 <div class="layer">
-                    <h3>Music App</h3>
-                    <p>The app connects you to talented people around the world
-                    Download it from the app store.
+                    <h3>Sir Isaac Newton Physics Contest</h3>
+                    <p>Conpetition hosted by University of Waterloo, top 25% worldwide in 2023 among over 10000 students.
                     </p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://uwaterloo.ca/sir-isaac-newton-exam/"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="images/work-3.png">
+                <img src="images/COMC.png">
                 <div class="layer">
-                    <h3>Online Study App</h3>
-                    <p>The app connects you to talented people around the world
-                    Download it from the app store.
+                    <h3>Canadian Open Mathematics Challenge</h3>
+                    <p>British Columbia honor roll for 3 years (2019, 2020, 2022). Top 10% for 3 consecutive years worldwide and app. top 200 in NA in COMC 2022.
                     </p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://cms.math.ca/competitions/comc/comc2022/"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
         </div>
-        <a href="#" class="btn">See more</a>
     </div>
 </div>
 <!-- ------------------------------contact---------------------------- -->
